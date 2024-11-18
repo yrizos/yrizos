@@ -1,0 +1,26 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# 4 space indentation
+[*.{js,ts,jsx,tsx,css,scss,html,json,md}]
+indent_style = space
+indent_size = 4
+
+# 2 space indentation for YAML files
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+# Tab indentation for C/C++/C#
+[*.{c,h,cpp,hpp,cs}]
+indent_style = tab
+
+# Trim trailing whitespace
+trim_trailing_whitespace = true
