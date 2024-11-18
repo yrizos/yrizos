@@ -1,5 +1,7 @@
 ### Hello! 👋
 
+This week I coded in:
+
 <!--START_SECTION:waka-->
 
 ```txt
