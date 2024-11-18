@@ -1,6 +1,6 @@
 ### Hello! 👋
 
-This week I coded in:
+This week I solved problems in:
 
 <!--START_SECTION:waka-->
 
