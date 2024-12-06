@@ -5,11 +5,11 @@ This week I solved problems in:
 <!--START_SECTION:waka-->
 
 ```txt
-PHP              6 hrs 14 mins   █████████████▒░░░░░░░░░░░   53.29 %
-Markdown         1 hr 53 mins    ████░░░░░░░░░░░░░░░░░░░░░   16.16 %
-Bash             53 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.65 %
-YAML             49 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   07.10 %
-Shell Script     39 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.59 %
+PHP              8 hrs 11 mins   ███████████████▒░░░░░░░░░   60.83 %
+Markdown         1 hr 53 mins    ███▓░░░░░░░░░░░░░░░░░░░░░   14.08 %
+Bash             54 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.77 %
+YAML             47 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.82 %
+Shell Script     35 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.41 %
 ```
 
 <!--END_SECTION:waka-->
