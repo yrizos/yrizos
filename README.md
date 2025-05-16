@@ -5,11 +5,11 @@ This week I solved problems in:
 <!--START_SECTION:waka-->
 
 ```txt
-Python       2 hrs 40 mins   ███████████▒░░░░░░░░░░░░░   45.63 %
-Bash         1 hr 5 mins     ████▓░░░░░░░░░░░░░░░░░░░░   18.78 %
-JSON         42 mins         ███░░░░░░░░░░░░░░░░░░░░░░   12.15 %
-Git Config   29 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.52 %
-Markdown     23 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.64 %
+Python       2 hrs 53 mins   ███████████░░░░░░░░░░░░░░   44.13 %
+Bash         1 hr 6 mins     ████▒░░░░░░░░░░░░░░░░░░░░   16.98 %
+JSON         42 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.86 %
+Git Config   34 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   08.83 %
+Markdown     23 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.06 %
 ```
 
 <!--END_SECTION:waka-->
