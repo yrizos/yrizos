@@ -5,11 +5,11 @@ This week I solved problems in:
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown          2 hrs 49 mins   █████████░░░░░░░░░░░░░░░░   36.56 %
-Python            1 hr 13 mins    ████░░░░░░░░░░░░░░░░░░░░░   15.93 %
-Gettext Catalog   53 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.49 %
-Bash              41 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   08.88 %
-PHP               28 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.13 %
+PHP            4 hrs 21 mins   ███████████▒░░░░░░░░░░░░░   44.84 %
+Markdown       2 hrs 27 mins   ██████▒░░░░░░░░░░░░░░░░░░   25.23 %
+Bash           47 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.20 %
+Python         28 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.95 %
+YAML           26 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.56 %
 ```
 
 <!--END_SECTION:waka-->
