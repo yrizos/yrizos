@@ -5,11 +5,11 @@ This week I solved problems in:
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown         9 hrs 18 mins   ████████████░░░░░░░░░░░░░   48.03 %
-PHP              8 hrs 21 mins   ██████████▓░░░░░░░░░░░░░░   43.11 %
-Other            46 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.00 %
-JSON             28 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.45 %
-GitIgnore file   7 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.65 %
+PHP              8 hrs 21 mins   ██████████████▒░░░░░░░░░░   57.10 %
+Markdown         4 hrs 27 mins   ███████▓░░░░░░░░░░░░░░░░░   30.45 %
+Other            36 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.13 %
+JSON             28 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.25 %
+TypeScript       13 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.59 %
 ```
 
 <!--END_SECTION:waka-->
