@@ -5,10 +5,10 @@ This week I solved problems in:
 <!--START_SECTION:waka-->
 
 ```txt
-SCSS         9 hrs 32 mins   ███████▓░░░░░░░░░░░░░░░░░   30.00 %
-Markdown     9 hrs 9 mins    ███████▒░░░░░░░░░░░░░░░░░   28.77 %
-Other        1 hr 11 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.77 %
-PHP          59 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.14 %
+Markdown     10 hrs 5 mins   █████████░░░░░░░░░░░░░░░░   35.49 %
+SCSS         5 hrs 49 mins   █████░░░░░░░░░░░░░░░░░░░░   20.49 %
+Python       1 hr 25 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   05.00 %
+PHP          59 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.51 %
 ```
 
 <!--END_SECTION:waka-->
