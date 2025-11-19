@@ -5,9 +5,9 @@ This week I solved problems in:
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown      8 hrs 43 mins   ████████████░░░░░░░░░░░░░   48.62 %
-SCSS          1 hr 36 mins    ██▒░░░░░░░░░░░░░░░░░░░░░░   08.92 %
-Text          1 hr 5 mins     █▓░░░░░░░░░░░░░░░░░░░░░░░   06.07 %
+Markdown      14 hrs 23 mins  ██████████████░░░░░░░░░░░   56.40 %
+SCSS          2 hrs           ██░░░░░░░░░░░░░░░░░░░░░░░   07.87 %
+YAML          1 hr 4 mins     █░░░░░░░░░░░░░░░░░░░░░░░░   04.22 %
 ```
 
 <!--END_SECTION:waka-->
