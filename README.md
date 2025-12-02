@@ -5,9 +5,10 @@ This week I solved problems in:
 <!--START_SECTION:waka-->
 
 ```txt
-PHP        16 mins         ████████████▓░░░░░░░░░░░░   50.61 %
-Markdown   8 mins          ██████▓░░░░░░░░░░░░░░░░░░   27.32 %
-Other      7 mins          █████▓░░░░░░░░░░░░░░░░░░░   22.06 %
+YAML       2 hrs 26 mins   ████████████████████▒░░░░   81.85 %
+PHP        16 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.28 %
+Markdown   8 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   04.91 %
+Other      7 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.96 %
 ```
 
 <!--END_SECTION:waka-->
