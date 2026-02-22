@@ -5,9 +5,10 @@ This week I solved problems in:
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown   7 hrs 31 mins         █████████████████████▓░░░   86.90 %
-YAML       37 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   07.13 %
-XML        0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.17 %
+Markdown   9 hrs 56 mins         ███████████████████████▓░   94.68 %
+YAML       33 mins               █▒░░░░░░░░░░░░░░░░░░░░░░░   05.26 %
+Other      0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.04 %
+JSON       0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 %
 ```
 
 <!--END_SECTION:waka-->
