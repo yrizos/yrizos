@@ -5,10 +5,10 @@ This week I solved problems in:
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown     24 hrs 15 mins        █████████████████████▓░░░   86.74 %
-Makefile     58 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   03.49 %
-Vue.js       35 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.14 %
-Other        27 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.65 %
+Markdown     26 hrs 33 mins        █████████████████████▒░░░   85.58 %
+Vue.js       1 hr 4 mins           █░░░░░░░░░░░░░░░░░░░░░░░░   03.46 %
+Makefile     58 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.15 %
+Other        33 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.78 %
 ```
 
 <!--END_SECTION:waka-->
