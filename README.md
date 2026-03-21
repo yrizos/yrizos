@@ -18,7 +18,7 @@ I [write](https://yrizos.com/writing/) about the trade-offs and small correction
 - [Boundaries Against the Machine](https://yrizos.com/writing/boundaries-against-the-machine/), Dec 08 2025
 <!-- BLOG-POST-LIST:END -->
 
-Some of the same themes show up on the [TalentLMS Engineering Blog](https://blog.talentlms.io/), where we write as a team about engineering culture, architecture, augmented coding, and what it takes to keep a product evolving.
+Some of the same themes show up on the [TalentLMS Engineering Blog](https://blog.talentlms.io/), where we write as a team about engineering culture, architecture, augmented coding, and what it takes to keep one of the most widely adopted learning platforms evolving.
 
 ### Commits to Code
 
