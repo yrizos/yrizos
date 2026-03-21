@@ -23,6 +23,11 @@ jobs:
         with:
           feed_list: "https://yrizos.com/feed.xml"
           commit_message: "docs: update blog post list in README"
+          max_post_count: 4
+          retry_count: 2
+          retry_wait_time: 3
+          template: "- [$title]($url), $date"
+          date_format: "mmm dd yyyy"
 
   update-wakatime:
     name: Update WakaTime Stats
