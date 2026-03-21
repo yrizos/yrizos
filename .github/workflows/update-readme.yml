@@ -26,7 +26,8 @@ jobs:
           max_post_count: 4
           retry_count: 2
           retry_wait_time: 3
-          template: "- [$title]($url), $date"
+          template: "$newline- [$title]($url), $date"
+          tag_post_pre_newline: true
           date_format: "mmm dd yyyy"
 
   update-wakatime:

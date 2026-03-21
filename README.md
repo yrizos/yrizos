@@ -10,7 +10,13 @@ Outside of work, I'm a dad, a reader, and when time allows, a gamer.
 
 I [write](https://yrizos.com/writing/) about the trade-offs and small corrections that keep systems and teams on track. A few recent pieces:
 
-<!-- BLOG-POST-LIST:START -->- [The Fastest Engineer in the Room](https://yrizos.com/writing/the-fastest-engineer-in-the-room/), Mar 13 2026- [What Is Architecture?](https://yrizos.com/writing/what-is-architecture/), Mar 02 2026- [From Sentience to Performance](https://yrizos.com/writing/from-sentience-to-performance/), Jan 12 2026- [Boundaries Against the Machine](https://yrizos.com/writing/boundaries-against-the-machine/), Dec 08 2025<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->
+
+- [The Fastest Engineer in the Room](https://yrizos.com/writing/the-fastest-engineer-in-the-room/), Mar 13 2026
+- [What Is Architecture?](https://yrizos.com/writing/what-is-architecture/), Mar 02 2026
+- [From Sentience to Performance](https://yrizos.com/writing/from-sentience-to-performance/), Jan 12 2026
+- [Boundaries Against the Machine](https://yrizos.com/writing/boundaries-against-the-machine/), Dec 08 2025
+<!-- BLOG-POST-LIST:END -->
 
 Some of the same themes show up on the [TalentLMS Engineering Blog](https://blog.talentlms.io/), where we write as a team about engineering culture, architecture, augmented coding, and what it takes to keep a product evolving.
 
