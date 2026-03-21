@@ -1,0 +1,56 @@
+#!/usr/bin/env sh
+# Enforces rules/git.md commit message format on the subject line.
+# See README.md (Git hooks) for scope and limits.
+
+set -e
+
+msg_file="$1"
+first_line="$(grep -v '^#' "$msg_file" | grep -v '^[[:space:]]*$' | head -n 1 || true)"
+
+# Allow Git-generated merge and revert messages
+case "$first_line" in
+  Merge\ *) exit 0 ;;
+  Revert\ *) exit 0 ;;
+esac
+
+if [ -z "$first_line" ]; then
+  echo "commit-msg: empty commit message" >&2
+  exit 1
+fi
+
+# No scope: reject type(scope):
+case "$first_line" in
+  *\(*) echo "commit-msg: scope in subject is not allowed, use \"type: subject\" only (rules/git.md)" >&2
+        exit 1 ;;
+esac
+
+# type: subject — allowed types from rules/git.md
+pattern='^(feat|fix|refactor|perf|test|docs|build|ci|chore): .+'
+if ! printf '%s\n' "$first_line" | grep -Eq "$pattern"; then
+  echo "commit-msg: first line must be \"<type>: <subject>\" with an allowed type (rules/git.md)" >&2
+  echo "  got: $first_line" >&2
+  exit 1
+fi
+
+len=$(printf '%s' "$first_line" | wc -c | tr -d ' ')
+if [ "$len" -gt 72 ]; then
+  echo "commit-msg: subject line exceeds 72 characters ($len)" >&2
+  exit 1
+fi
+
+case "$first_line" in
+  *.) echo "commit-msg: subject line must not end with a period (rules/git.md)" >&2
+      exit 1 ;;
+esac
+
+# Obvious prohibited one-word vague subjects (rules/git.md Prohibited commit content)
+subject="${first_line#*: }"
+subject_lc=$(printf '%s' "$subject" | tr '[:upper:]' '[:lower:]')
+for bad in update cleanup 'fix stuff' 'quick fix'; do
+  if [ "$subject_lc" = "$bad" ]; then
+    echo "commit-msg: subject is too vague: \"$subject\" (rules/git.md)" >&2
+    exit 1
+  fi
+done
+
+exit 0

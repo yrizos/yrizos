@@ -1,0 +1,72 @@
+#!/usr/bin/env sh
+# Enforces rules/git.md branch naming for commits on topic branches.
+# See README.md (Git hooks) for scope and limits.
+
+set -e
+
+branch="$(git rev-parse --abbrev-ref HEAD 2>/dev/null || true)"
+
+if [ "$branch" = "HEAD" ]; then
+  exit 0
+fi
+
+case "$branch" in
+  main|master|develop) exit 0 ;;
+esac
+
+slash_count=$(printf '%s' "$branch" | tr -cd '/' | wc -c | tr -d ' ')
+if [ "$slash_count" != 1 ]; then
+  echo "pre-commit: branch must be exactly \"type/description\" with one slash (rules/git.md)" >&2
+  echo "  branch: $branch" >&2
+  exit 1
+fi
+
+type="${branch%%/*}"
+desc="${branch#*/}"
+
+allowed_types='feature fix hotfix refactor chore docs test release'
+found=0
+for t in $allowed_types; do
+  if [ "$type" = "$t" ]; then
+    found=1
+    break
+  fi
+done
+if [ "$found" -eq 0 ]; then
+  echo "pre-commit: unknown branch type \"$type\" (rules/git.md)" >&2
+  exit 1
+fi
+
+# Sole issue number as description
+case "$desc" in
+  ''|*/*)
+    echo "pre-commit: invalid branch description (rules/git.md)" >&2
+    echo "  branch: $branch" >&2
+    exit 1 ;;
+esac
+
+if printf '%s\n' "$desc" | grep -Eq '^[0-9]+$'; then
+  echo "pre-commit: branch must not use only an issue number as the description (rules/git.md)" >&2
+  echo "  branch: $branch" >&2
+  exit 1
+fi
+
+case "$type" in
+  release)
+    if ! printf '%s\n' "$desc" | grep -Eq '^[0-9]+(\.[0-9]+)*(-[a-z0-9]+)*$'; then
+      echo "pre-commit: release branch description should look like 2.4.0 or 2.4.0-rc1 (rules/git.md)" >&2
+      echo "  branch: $branch" >&2
+      exit 1
+    fi
+    exit 0
+    ;;
+esac
+
+# Short description: lowercase, hyphens, no underscores or dots (rules/git.md)
+if ! printf '%s\n' "$desc" | grep -Eq '^[a-z0-9]+(-[a-z0-9]+)*$'; then
+  echo "pre-commit: use lowercase words separated by hyphens; no underscores or dots (rules/git.md)" >&2
+  echo "  branch: $branch" >&2
+  exit 1
+fi
+
+exit 0
