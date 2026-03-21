@@ -1,0 +1,6 @@
+---
+description: Load repository agent rules from AGENTS.md
+alwaysApply: true
+---
+
+Read and follow AGENTS.md before taking any action.
