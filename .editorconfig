@@ -1,11 +1,23 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
 root = true
 
 [*]
-end_of_line = lf
-insert_final_newline = true
-trim_trailing_whitespace = true
 charset = utf-8
-
-[*.{yml,yaml}]
+end_of_line = lf
 indent_style = space
 indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{php,js,ts,jsx,tsx,c,cpp,h,hpp,cs,java,py,rb,rs,go,sh}]
+max_line_length = 100
+
+[Makefile]
+indent_style = tab
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.mdc]
+trim_trailing_whitespace = false
