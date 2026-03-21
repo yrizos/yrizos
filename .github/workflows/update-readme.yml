@@ -1,0 +1,40 @@
+# Keeps the profile README current by pulling in blog posts and coding stats.
+
+name: Update README
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-blog-posts:
+    name: Update Blog Posts
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      # https://github.com/gautamkrishnar/blog-post-workflow
+      # Reads the RSS feed and replaces the BLOG-POST-LIST markers in README.md.
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://yrizos.com/feed.xml"
+          commit_message: "docs: update blog post list in README"
+
+  update-wakatime:
+    name: Update WakaTime Stats
+    needs: update-blog-posts
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # https://github.com/athul/waka-readme
+      # Reads WakaTime API data and replaces the waka markers in README.md.
+      - uses: athul/waka-readme@master
+        with:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          IGNORED_LANGUAGES: HTML CSS TOML
+          COMMIT_MESSAGE: "docs: update WakaTime stats in README"
