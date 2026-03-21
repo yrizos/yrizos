@@ -27,8 +27,6 @@ The week according to my editor, tracked by [WakaTime](https://wakatime.com/@yri
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 18 hrs 22 mins
-
 Markdown     17 hrs 17 mins        ███████████████████████▒░   93.91 %
 Text         23 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.09 %
 SCSS         8 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.81 %
