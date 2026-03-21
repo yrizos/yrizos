@@ -16,3 +16,4 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           IGNORED_LANGUAGES: HTML CSS TOML
+          COMMIT_MESSAGE: "docs: update WakaTime stats in README"
