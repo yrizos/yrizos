@@ -8,7 +8,7 @@ Outside of work, I'm a dad, a reader, and when time allows, a gamer.
 
 ### Commits to Prose
 
-I [write](https://yrizos.com/writing/) about the trade-offs and small corrections that keep systems and teams on track.
+I [write](https://yrizos.com/writing/) about the trade-offs and small corrections that keep systems and teams on track. A few recent pieces:
 
 <!-- BLOG-POST-LIST:START -->
 - [The Fastest Engineer in the Room](https://yrizos.com/writing/the-fastest-engineer-in-the-room/)
