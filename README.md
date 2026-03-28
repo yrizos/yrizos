@@ -27,9 +27,9 @@ The week according to my editor, tracked by [WakaTime](https://wakatime.com/@yri
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown       28 hrs 7 mins         █████████████████████▓░░░   86.15 %
-YAML           57 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.93 %
-Other          54 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.78 %
+Markdown       28 hrs 58 mins        ██████████████████████░░░   88.24 %
+YAML           56 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.89 %
+Other          54 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.77 %
 ```
 
 <!--END_SECTION:waka-->
