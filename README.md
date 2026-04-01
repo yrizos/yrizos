@@ -27,10 +27,10 @@ The week according to my editor, tracked by [WakaTime](https://wakatime.com/@yri
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown     16 hrs 21 mins        ████████████████████████░   96.49 %
-Makefile     7 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.73 %
-Git Config   7 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.73 %
-Other        6 mins                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.63 %
+Markdown     12 hrs 25 mins        ████████████████████████░   96.65 %
+Makefile     6 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.86 %
+Git Config   4 mins                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.53 %
+Text         0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 %
 ```
 
 <!--END_SECTION:waka-->
