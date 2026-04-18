@@ -27,7 +27,7 @@ The week according to my editor, tracked by [WakaTime](https://wakatime.com/@yri
 <!--START_SECTION:waka-->
 
 ```txt
-Other        29 hrs 48 mins        █████████████░░░░░░░░░░░░   52.30 %
+Other        26 hrs 55 mins        █████████████▒░░░░░░░░░░░   53.29 %
 ```
 
 <!--END_SECTION:waka-->
