@@ -43,5 +43,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           STOP_AT_OTHER: true
-          IGNORED_LANGUAGES: HTML CSS TOML JSON Binary
+          # waka-readme prints "Other" before honoring STOP_AT_OTHER; ignore it explicitly.
+          IGNORED_LANGUAGES: HTML CSS TOML JSON Binary Other
           COMMIT_MESSAGE: "docs: update WakaTime stats in README"
