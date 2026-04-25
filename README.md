@@ -27,10 +27,10 @@ The week according to my editor, tracked by [WakaTime](https://wakatime.com/@yri
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown     6 hrs 50 mins         ██████▓░░░░░░░░░░░░░░░░░░   27.12 %
-Rust         3 hrs 39 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.53 %
-PHP          3 hrs 33 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.14 %
-YAML         3 hrs 19 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.20 %
+Markdown     6 hrs 59 mins         ███████▒░░░░░░░░░░░░░░░░░   29.40 %
+YAML         3 hrs 19 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.99 %
+PHP          3 hrs 12 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.48 %
+Rust         3 hrs 5 mins          ███▒░░░░░░░░░░░░░░░░░░░░░   13.00 %
 ```
 
 <!--END_SECTION:waka-->
