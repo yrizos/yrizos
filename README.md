@@ -27,10 +27,9 @@ The week according to my editor, tracked by [WakaTime](https://wakatime.com/@yri
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown     10 hrs 46 mins        ██████████▓░░░░░░░░░░░░░░   42.72 %
-YAML         2 hrs 55 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.59 %
-PHP          1 hr 59 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   07.88 %
-Makefile     44 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.91 %
+Markdown     10 hrs 40 mins        ██████████████▓░░░░░░░░░░   58.11 %
+Makefile     44 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   04.00 %
+SQL          32 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.93 %
 ```
 
 <!--END_SECTION:waka-->
