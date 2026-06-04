@@ -27,11 +27,8 @@ The week according to my editor, tracked by [WakaTime](https://wakatime.com/@yri
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown      7 hrs 23 mins         ████████████████▒░░░░░░░░   65.33 %
-Vue           1 hr 22 mins          ███░░░░░░░░░░░░░░░░░░░░░░   12.08 %
-PHP           1 hr 1 min            ██▒░░░░░░░░░░░░░░░░░░░░░░   09.02 %
-Docker        28 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   04.19 %
-Text          10 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.51 %
+Markdown   1 hr 5 mins           ████████████████████████▓   98.80 %
+YAML       0 secs                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.20 %
 ```
 
 <!--END_SECTION:waka-->
