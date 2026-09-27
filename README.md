@@ -11,10 +11,10 @@ Outside of work, I'm a dad, a reader, and when time allows, a gamer.
 I [write](https://yrizos.com/writing/) about the trade-offs and small corrections that keep systems and teams on track. A few recent pieces:
 
 <!-- BLOG-POST-LIST:START -->
-- [The Fastest Engineer in the Room](https://yrizos.com/writing/the-fastest-engineer-in-the-room/), Mar 13 2026
-- [What Is Architecture?](https://yrizos.com/writing/what-is-architecture/), Mar 02 2026
-- [From Sentience to Performance](https://yrizos.com/writing/from-sentience-to-performance/), Jan 12 2026
-- [Boundaries Against the Machine](https://yrizos.com/writing/boundaries-against-the-machine/), Dec 08 2025
+- [Turn the Ship Around!](https://yrizos.com/writing/turn-the-ship-around/), Aug 12 2026
+- [The Job Before the Job](https://yrizos.com/writing/the-job-before-the-job/), Jun 22 2026
+- [Leadership Micro Katas](https://yrizos.com/writing/leadership-micro-katas/), Apr 27 2026
+- [One Bloody Character](https://yrizos.com/writing/one-bloody-character/), Apr 15 2026
 
 <!-- BLOG-POST-LIST:END -->
 
