@@ -27,11 +27,11 @@ The week according to my editor, tracked by [WakaTime](https://wakatime.com/@yri
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown       10 hrs 18 mins        ██████████░░░░░░░░░░░░░░░   40.57 %
-SQL            2 hrs 38 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.42 %
-Bash           1 hr 53 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   07.42 %
-Makefile       1 hr 43 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.79 %
-Python         1 hr 36 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.33 %
+Markdown       14 hrs 7 mins         ███████████▒░░░░░░░░░░░░░   45.17 %
+SQL            3 hrs 35 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.45 %
+Makefile       2 hrs 6 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.76 %
+Bash           1 hr 59 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.38 %
+Python         1 hr 44 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.59 %
 ```
 
 <!--END_SECTION:waka-->
