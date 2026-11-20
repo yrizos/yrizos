@@ -1,10 +1,6 @@
 # AGENTS.md
 
-## Applicability
-
-This file defines mandatory operational rules for AI coding agents (LLM-based tools such as Claude Code, Copilot, Cursor, and similar).
-
-Human contributors must treat these rules as enforced constraints, not optional style guidance.
+Mandatory rules for AI coding agents (Claude Code, Copilot, Cursor, and similar). Humans treat them as enforced constraints.
 
 ## Boundaries
 
@@ -12,9 +8,9 @@ Human contributors must treat these rules as enforced constraints, not optional 
 
 - Read the target file before editing it.
 - Do only what was explicitly asked.
-- When confidence is below 95%, ask instead of proceeding.
-- Read the relevant rule file before the activity it covers.
-- Check environment state (branch, working directory, runtime) before acting on assumptions about it.
+- Ask instead of proceeding when confidence is below 95%.
+- Read the relevant doc in `docs/` before the activity it covers.
+- Check environment state (branch, working directory, runtime) instead of assuming it.
 
 ### Ask First
 
@@ -25,48 +21,28 @@ Human contributors must treat these rules as enforced constraints, not optional 
 
 ### Never
 
-- Use a larger edit than the task requires. The smallest diff that satisfies the request is the correct one.
+- Use a larger edit than the task requires. The smallest diff that satisfies the request is correct.
 - Rename, remove, or rewrite content outside the stated scope.
 - Run destructive or irreversible commands without the user naming the exact target and confirming.
 - Present guesses as facts. Say "I am not sure" when uncertain.
-- Expand scope beyond what was asked. If something else needs attention, mention it and wait.
-- Interpret questions, complaints, or frustration as implicit requests to take action. A question is a request for an answer. Frustration is not a change request.
+- Expand scope. If something else needs attention, mention it and wait.
+- Treat questions, complaints, or frustration as requests to act. A question asks for an answer. Frustration is not a change request.
 
 ## Conduct
 
 ### Preserve User Decisions
 
-If the user chose a specific approach, library, pattern, or naming convention, do not replace it with an alternative unless asked. User decisions are intentional.
-
-Violation: the user names a variable `cfg` and the agent renames it to `config` because it considers the abbreviation unclear.
+Do not replace the user's chosen approach, library, pattern, or naming with an alternative unless asked. Example: the user names a variable `cfg`, and the agent must not rename it to `config`.
 
 ### Repository Awareness
 
-Read the repository's README.md at the start of any task if one exists. When a change affects something documented in the README, flag it and propose the update as a separate commit. Do not mix README updates with unrelated changes.
+Read `README.md` at the start of any task if it exists. If a change affects something it documents, flag it and propose the update as a separate commit. Never mix README updates with unrelated changes.
 
-Violation: a structural change adds a new directory, but the agent does not flag that the README's structure section is now out of date.
+## Docs
 
-## Rule Files
+Read the full file before the activity it covers. The summaries here are not sufficient.
 
-Each rule file below is mandatory for the activity it covers. The summaries are not sufficient. Read the full file before performing the associated activity.
+- `docs/git.md`: branching, commit messages, history, destructive Git operations. Before any Git activity.
+- `docs/writing.md`: producing prose. Before writing or revising substantial written content.
 
-- `rules/git.md`: Branching, commit messages, history, and destructive Git operations. Read before any Git activity.
-- `rules/code.md`: How agents write and modify code, covering error handling, naming, complexity, validation, comments, and structure. Read before changing or adding source files.
-- `rules/writing.md`: How agents produce prose. Read before writing or revising substantial written content.
-
-## Extension Rules
-
-Adding new rule files must not weaken or override existing rules unless explicitly stated.
-
-Future rule files must:
-
-- define their own scope explicitly
-- not implicitly override existing rules
-- state precedence if overlap exists
-
-If a new rule file needs to modify the behavior defined in an existing file, it must:
-
-- reference the existing file explicitly
-- define the exact rule being replaced or extended
-
-Implicit modification is not allowed.
+New docs must define their own scope, must not weaken or implicitly override existing docs, and must name the exact rule and file they replace or extend.
