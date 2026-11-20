@@ -46,3 +46,35 @@ jobs:
           # waka-readme prints "Other" before honoring STOP_AT_OTHER; ignore it explicitly.
           IGNORED_LANGUAGES: HTML CSS TOML JSON Binary Other
           COMMIT_MESSAGE: "docs: update WakaTime stats in README"
+      # Checks out the branch head so the commit from waka-readme is included.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.ref_name }}
+      # Replaces the MARKDOWN-QUIP markers in README.md based on whether Markdown is in the WakaTime stats.
+      - name: Pick the quip
+        run: |
+          python3 - <<'EOF'
+          import re
+          with open("README.md") as f:
+              readme = f.read()
+          waka = re.search(r"<!--START_SECTION:waka-->(.*?)<!--END_SECTION:waka-->", readme, re.S).group(1)
+          if re.search(r"^Markdown\s", waka, re.M):
+              quip = "I guess we are all Markdown engineers these days."
+          else:
+              quip = "A week free of Markdown is a good week."
+          readme = re.sub(
+              r"(<!-- MARKDOWN-QUIP:START -->\n).*?(\n<!-- MARKDOWN-QUIP:END -->)",
+              lambda m: m.group(1) + quip + m.group(2),
+              readme,
+              flags=re.S,
+          )
+          with open("README.md", "w") as f:
+              f.write(readme)
+          EOF
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git diff --quiet && exit 0
+          git commit -am "docs: update markdown quip in README"
+          git push

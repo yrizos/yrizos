@@ -1,14 +1,14 @@
 # Hello! 👋
 
-I'm Yannis, a software engineer in Athens, Greece. I design systems that survive contact with reality and help teams move faster without breaking things. At [Epignosis](https://www.epignosishq.com/), I lead the architecture team shaping the next iteration of [TalentLMS](https://www.talentlms.com/).
+I'm Yannis, a software engineer from Athens, Greece.
 
-I started programming at 7 on an Intel 8088. The first time I was paid to write code was in Perl, and that's when I came across Larry Wall's three virtues: **laziness**, **impatience**, and **hubris**. They stayed with me because they say something honest about how developers think.
+I started programming at 7 on an Intel 8088. Years later, Perl became the first language anyone paid me to write. That's where I found Larry Wall's three virtues of a programmer: **laziness**, **impatience**, and **hubris**. They've stayed with me ever since.
 
 Outside of work, I'm a dad, a reader, and when time allows, a gamer.
 
 ## Commits to Prose
 
-I [write](https://yrizos.com/writing/) about the trade-offs and small corrections that keep systems and teams on track. A few recent pieces:
+I [write](https://yrizos.com/writing/) about software, the teams that build it, and the small fixes that keep both on track:
 
 <!-- BLOG-POST-LIST:START -->
 - [Turn the Ship Around!](https://yrizos.com/writing/turn-the-ship-around/), Aug 12 2026
@@ -18,7 +18,7 @@ I [write](https://yrizos.com/writing/) about the trade-offs and small correction
 
 <!-- BLOG-POST-LIST:END -->
 
-Some of the same themes show up on the [TalentLMS Engineering Blog](https://blog.talentlms.io/), where we write as a team about engineering culture, architecture, augmented coding, and what it takes to keep one of the most widely adopted learning platforms evolving.
+My team and I also write on the [TalentLMS Engineering Blog](https://blog.talentlms.io/). We cover engineering culture, architecture, and augmented coding.
 
 ## Commits to Code
 
@@ -32,6 +32,18 @@ Text         1 hr 7 mins           ▓░░░░░░░░░░░░░░
 ```
 
 <!--END_SECTION:waka-->
+
+<!-- MARKDOWN-QUIP:START -->
+I guess we are all Markdown engineers these days.
+<!-- MARKDOWN-QUIP:END -->
+
+## Commits to Practice
+
+Day-to-day work doesn't hand out many reps, so I built a couple of ways to get more.
+
+[Leadership Micro Katas](https://leadership-katas.yrizos.com/) covers everyday technical leadership. Each kata is a small response you practice when a familiar moment comes up, like a ticket landing for refinement.
+
+Software design is harder to practice alone, so [Architectural Katas](https://architectural-katas.yrizos.com/) is my hands-on workshop for it. A small team gets a brief for a system that doesn't exist yet and an hour to design it, with no code and no right answer.
 
 ---
 
