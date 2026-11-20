@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v6.0.0
+    rev: 3e8a8703264a2f4a69428a0aa4dcb512790b2c8c # frozen: v6.0.0
     hooks:
       - id: trailing-whitespace
         args: [--markdown-linebreak-ext=md, --markdown-linebreak-ext=mdc]
@@ -14,24 +14,24 @@ repos:
       - id: detect-private-key
 
   - repo: https://github.com/gitleaks/gitleaks
-    rev: v8.30.0
+    rev: 83d9cd684c87d95d656c1458ef04895a7f1cbd8e # frozen: v8.30.1
     hooks:
       - id: gitleaks
 
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.50.0
+    rev: cbcdc463be5464e25e3e955a511599a67b9b987f # frozen: v0.50.0
     hooks:
       - id: markdownlint
         language_version: system
         args: [--fix, --disable, MD013, --]
 
   - repo: https://github.com/rhysd/actionlint
-    rev: v1.7.12
+    rev: 914e7df21a07ef503a81201c76d2b11c789d3fca # frozen: v1.7.12
     hooks:
       - id: actionlint
 
   - repo: https://github.com/compilerla/conventional-pre-commit
-    rev: v4.5.0
+    rev: 33b50eb042bee26eac0ee96ad84aa9c1b4dccdd8 # frozen: v4.5.0
     hooks:
       - id: conventional-pre-commit
         stages: [commit-msg]
