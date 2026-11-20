@@ -33,7 +33,7 @@ The agent must describe what it intends to do and wait for approval. "This will 
 
 Each branch name must follow this structure:
 
-```
+```text
 <type>/<short-description>
 ```
 
@@ -54,7 +54,7 @@ No additional types are allowed unless explicitly introduced in this file.
 
 ### Branch Naming Examples
 
-```
+```text
 feature/user-export-csv
 fix/null-pointer-on-login
 hotfix/payment-timeout
@@ -98,7 +98,7 @@ Commit messages must:
 
 Each commit message must follow this structure:
 
-```
+```text
 <type>: <subject>
 
 <body>
@@ -203,7 +203,7 @@ If the repository uses `Co-authored-by` trailers, the agent may be listed as a c
 
 If used, append at the end of the body:
 
-```
+```text
 Refs: #<issue>, #<issue>
 ```
 
