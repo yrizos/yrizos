@@ -25,6 +25,11 @@ repos:
         language_version: system
         args: [--fix, --disable, MD013, --]
 
+  - repo: https://github.com/rhysd/actionlint
+    rev: v1.7.12
+    hooks:
+      - id: actionlint
+
   - repo: https://github.com/compilerla/conventional-pre-commit
     rev: v4.5.0
     hooks:
