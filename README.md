@@ -1,4 +1,4 @@
-### Hello! 👋
+# Hello! 👋
 
 I'm Yannis, a software engineer in Athens, Greece. I design systems that survive contact with reality and help teams move faster without breaking things. At [Epignosis](https://www.epignosishq.com/), I lead the architecture team shaping the next iteration of [TalentLMS](https://www.talentlms.com/).
 
@@ -6,7 +6,7 @@ I started programming at 7 on an Intel 8088. The first time I was paid to write 
 
 Outside of work, I'm a dad, a reader, and when time allows, a gamer.
 
-### Commits to Prose
+## Commits to Prose
 
 I [write](https://yrizos.com/writing/) about the trade-offs and small corrections that keep systems and teams on track. A few recent pieces:
 
@@ -20,7 +20,7 @@ I [write](https://yrizos.com/writing/) about the trade-offs and small correction
 
 Some of the same themes show up on the [TalentLMS Engineering Blog](https://blog.talentlms.io/), where we write as a team about engineering culture, architecture, augmented coding, and what it takes to keep one of the most widely adopted learning platforms evolving.
 
-### Commits to Code
+## Commits to Code
 
 The week according to my editor, tracked by [WakaTime](https://wakatime.com/@yrizos).
 
